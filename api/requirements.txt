@@ -1,0 +1,8 @@
+sanic
+sanic-testing
+onnx
+pillow
+onnxruntime
+pytest
+opencv-python-headless
+openvino
