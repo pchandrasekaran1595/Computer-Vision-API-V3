@@ -1,4 +1,4 @@
-## **Computer Vision API V3**
+## **Computer Vision**
 
 <br>
 
