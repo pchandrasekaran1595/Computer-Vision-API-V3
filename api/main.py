@@ -9,7 +9,7 @@ from static.utils import models, Helpers
 
 
 STATIC_PATH: str = "static"
-VERSION: str = "1.0.0"
+VERSION: str = "3.0.0"
 PORT: int = 4040
 
 app = Sanic("Computer-Vision-API-V3")
