@@ -6,7 +6,7 @@ from sanic_testing.testing import SanicTestClient
 test_client = SanicTestClient(app)
 
 
-def test_get_vroot():
+def test_get_root():
     _, response = test_client.get("/")
     assert response.json == {
             "statusText": "Root Endpoint of CV-API-V3"
