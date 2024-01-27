@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
       v.name = "NMAP-APP-SERVER"
     end
     
-    config.vm.netowrk "forwarded_port", guest: 4040, host: 4040
+    config.vm.netowrk "forwarded_port", guest: 65000, host: 65000
     
     config.vm.provision "shell", inline: <<-SHELL
       systemctl disable apt-daily.service

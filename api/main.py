@@ -10,7 +10,7 @@ from static.utils import models, Helpers
 
 STATIC_PATH: str = "static"
 VERSION: str = "3.0.0"
-PORT: int = 4040
+PORT: int = 65000
 
 app = Sanic("Computer-Vision-API-V3")
 app.static("static", "static")

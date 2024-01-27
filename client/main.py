@@ -104,7 +104,7 @@ def main():
     args_5: tuple = ("--filename-2", "-f2")
 
     mode: str = "image"
-    base_url: str = "http://localhost:4040"
+    base_url: str = "http://localhost:65000"
     model: str = "classify"
     filename_1: str = "Test_1.png"
     filename_2: str = "Test_2.png"
